@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InstantFromSelf Schema > should fail on non instant 1`] = `
+"error(s) found
+└─ Expected Temporal.Instant, actual \\"2022-01-03\\""
+`;
+
+exports[`InstantFromString Schema > should fail to parse an invalid instant string 1`] = `
+"error(s) found
+└─ Expected Temporal.Instant, actual \\"invalid-instant\\""
+`;
+
+exports[`PlainDateFromSelf Schema > should fail on non plain date 1`] = `
+"error(s) found
+└─ Expected Temporal.PlainDate, actual \\"2022-01-03T05:28:11.284Z\\""
+`;
+
+exports[`PlainDateFromString Schema > should fail to parse an invalid date string 1`] = `
+"error(s) found
+└─ Expected Temporal.PlainDate, actual \\"invalid-date\\""
+`;
